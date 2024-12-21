@@ -23,5 +23,7 @@ jobs:
 
       - name: Run tests
         run: |
+          export PYTHONPATH=$PYTHONPATH:.
           python -m unittest test_triangle.py
+
 
