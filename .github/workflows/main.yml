@@ -23,4 +23,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m unittest discover -p "test_t*.py" -p "test_rec*.py" -p  "test_s*.py" -p "test_c*.py"
+          python -m unittest test_rectangle.py
+          python -m unittest test_square.py
+          python -m unittest test_triangle.py
+          python -m unittest test_circle.py
