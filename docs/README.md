@@ -11,7 +11,7 @@
 - Square: P = 4a
 - Triangle: P = abc
 
-## **Area funcion**
+## **Area funcions**
 - Circle:
 ```
     На вход поступает число r, возвращает r^2*pi
@@ -51,7 +51,7 @@
         area=10
 ```
 
-## **Perimeter**
+## **Perimeter functions**
 - Circle:
 ```
     На вход поступает число r, возвращает r*2*pi
